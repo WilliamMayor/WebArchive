@@ -1,0 +1,20 @@
+/** http://www.colourlovers.com/palette/2787323/Flat_UI_Design **/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family: 'SourceSansProLight', sans-serif;
+    min-width: 650px;
+    margin: 0 0 100px;
+}
+a {
+    text-decoration: none;
+    color: #BB4D3E;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul, ol {
+    margin-left: 50px;
+}

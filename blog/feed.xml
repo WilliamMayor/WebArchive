@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">WebArchive</title>
+    <link type="application/atom+xml" href="http://webarchive.williammayor.co.uk/feed.xml" rel="self"/>
+    <link type="text" href="http://webarchive.williammayor.co.uk" rel="alternate"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://webarchive.williammayor.co.uk</id>
+    <author>
+        <name>William Mayor</name>
+    </author>
+    <rights>Copyright (c) 2013, William Mayor; all rights reserved.</rights>
+    {% for post in site.posts %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://webarchive.williammayor.co.uk{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://webarchive.williammayor.co.uk{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+</feed>

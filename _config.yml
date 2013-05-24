@@ -1,0 +1,4 @@
+auto: true
+markdown: rdiscount
+timezone: Eurpoe/London
+permalink: /blog/:year/:month/:day/:title/

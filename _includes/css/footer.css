@@ -1,0 +1,29 @@
+footer {
+    background-color: #353535;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    min-width: 650px;
+}
+footer ul {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+footer p {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+footer img {
+    width: 50px;
+    margin: 0 15px;
+}

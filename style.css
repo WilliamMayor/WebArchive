@@ -1,0 +1,9 @@
+---
+---
+{% include css/reset.css %}
+{% include css/fontawesome.min.css %}
+{% include css/fonts.css %}
+{% include css/default.css %}
+{% include css/header.css %}
+{% include css/footer.css %}
+{% include css/article.css %}

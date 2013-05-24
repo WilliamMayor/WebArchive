@@ -1,0 +1,26 @@
+article {
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+article h1 {
+    font-size: 2em;
+}
+article h2 {
+    font-size: 1.5em;
+}
+article p {
+    margin: 20px 0;
+}
+article div.more {
+    height: 100px;
+}
+article div.more .previous {
+    float: left;
+    width: 50%;
+}
+article div.more .next {
+    float: right;
+    width: 50%;
+    text-align: right;
+}

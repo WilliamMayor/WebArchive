@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebArchive | {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        {% for js in page.js %}
+        <script src="{{ js }}" ></script>
+        {% endfor %}
+        {% for css in page.css %}
+        <link rel="stylesheet" type="text/css" href="{{ css }}" ></script>
+        {% endfor %}
+    </head>
+    <body class="{{ page.name }}">
+        <header>
+            <h1>WebArchive</h1>
+            <nav>
+                <ul>
+                    <li class="home"><a href="/"><i class="icon-home"></i>HOME</a></li>
+                    <li class="blog"><a href="/blog/"><i class="icon-align-left"></i>BLOG</a></li>
+                    <li class="software"><a href="/software/"><i class="icon-code"></i>SOFTWARE</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+        {{ content }}
+        </article>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/blog/">BLOG</a></li>
+                    <li><a href="/software/">SOFTWARE</a></li>
+                </ul>
+            </nav>
+            <p>
+                Work presented here is kindly funded by the EPSRC as part of UCL's Security Science Doctoral Training Centre, Grant no: EP/G037264/1.
+            </p>
+            <p>
+                Any questions can be directed to <a href="mailto:w.mayor@ucl.ac.uk">w.mayor@ucl.ac.uk</a>
+            </p>
+            <img src="/images/epsrc.gif" alt="EPSRC Logo" />
+            <img src="/images/ucl.png" alt="UCL Logo" />
+        </footer>
+    </body>
+</html>

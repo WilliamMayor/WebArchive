@@ -1,0 +1,47 @@
+header {
+    background-color: #353535;
+    color: white;
+    padding: 10px;
+}
+header h1 {
+    display: inline;
+    font-size: 2em;
+    margin-right: 30px;
+}
+header nav {
+    display: inline;   
+}
+header nav ul {
+    display: inline;
+}
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header li a {
+    color: white;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+header li i {
+    margin-right: 5px;
+}
+header li a:hover {
+    color: #BB4D3E;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    text-decoration: none;
+}
+body.home header li.home a {
+    color: #BB4D3E;
+}
+body.blog header li.blog a {
+    color: #BB4D3E;
+}
+body.software header li.software a {
+    color: #BB4D3E;
+}

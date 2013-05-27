@@ -2,6 +2,7 @@ header {
     background-color: #353535;
     color: white;
     padding: 10px;
+    font-family: 'SourceSansProLight', sans-serif;
 }
 header h1 {
     display: inline;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WebMap, Visualising Domains
-tags: [research, webarchive]
+tags: [webmap, collection]
 js: [/software/webmap/examples/sigma.min.js, /software/webmap/examples/sigma.parseGexf.js, /software/webmap/examples/script.js]
 css: [/software/webmap/examples/style.css]
 ---

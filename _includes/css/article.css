@@ -5,15 +5,20 @@ article {
 }
 article h1 {
     font-size: 2em;
+    margin-top: 20px;
 }
 article h2 {
     font-size: 1.5em;
+    margin-top: 20px;
 }
 article p {
     margin: 20px 0;
 }
 article div.more {
     height: 100px;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
 }
 article div.more .previous {
     float: left;

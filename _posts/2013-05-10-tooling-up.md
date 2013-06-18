@@ -14,7 +14,7 @@ Open Source Web Search Engine. Includes a fetcher (crawler) and a MapReduce syst
 
 This is the draft version of the ISO standard.
 
-The WARC file format can be used to store information on lots of files downloaded during a web crawl. Its scope is:
+The WARC file format can be used to store information on lots of files downloaded during a web crawl. Its scope is to:
 
 1. Store payload content and control information
 2. Store arbitrary metadata
@@ -25,7 +25,7 @@ The WARC file format can be used to store information on lots of files downloade
 7. Be extensible
 8. Support truncation/segmentation of records
 
-Built on top of Brewster Khale's ARC format.
+Built on top of Brewster Kahle's ARC format.
 
 A WARC file contains multiple WARC records, the first record usually describes the records to follow. Roughly the format follows these rules, where [] denotes an optional value and CAPS denotes arbitrary input:
 

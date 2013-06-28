@@ -29,3 +29,6 @@ article div.more .next {
     width: 50%;
     text-align: right;
 }
+article pre {
+    overflow: auto;
+}

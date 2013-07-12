@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html {% if page.ngapp %}ng-app{% endif %}>
     <head>
         <meta charset="utf-8">
         <title>WebArchive | {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="/style.css">
+        {% if page.ngapp %}
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        {% endif %}
         {% for js in page.js %}
         <script src="{{ js }}" ></script>
         {% endfor %}
@@ -23,7 +26,7 @@
                 </ul>
             </nav>
         </header>
-        <article>
+        <article {% if page.ngapp %}ng-controller="Ctrl"{% endif %}>
         {{ content }}
         </article>
         <footer>

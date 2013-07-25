@@ -18,3 +18,31 @@ a:hover {
 ul, ol {
     margin-left: 50px;
 }
+table {
+	margin: auto;
+	font-family: 'SourceSansProLight', sans-serif;
+}
+table td, table th {
+	padding: 5px;
+}
+table td:not(:last-child){
+	border-right: 1px solid #353535;
+}
+table th:not(:last-child){
+	border-right: 1px solid #353535;
+}
+table th {
+	background-color: #353535;
+	color: white;
+	font-weight: normal;
+}
+table tr:nth-child(odd) {
+	background-color: #F9B4AA;
+}
+table input[type=text] {
+	border: 1px solid #353535;
+	padding: 3px;
+}
+input.error {
+	background-color: red;
+}
